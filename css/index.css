@@ -115,8 +115,8 @@
     top: 15px;
 }
 .roll-content li {
-    float: left;
-    width: 160px;
+    /* float: left; */
+    width: 700px;
     margin-right: 10px;
 }
 .img-box {
@@ -139,9 +139,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 160px;
+    width: 700px;
     display: block;
-    text-align: center;
+    text-align: left;
+    text-indent: 25px;
+}
+.txt-box span{
+    float: right;
 }
 .txt-box:hover {
     text-decoration: underline;
